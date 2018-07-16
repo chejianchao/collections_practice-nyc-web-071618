@@ -33,7 +33,7 @@ end
 
 def find_a(arr)
   arr.find{|a|
-    a.start
+    a.start_with?("a")
   }
 end
 def sum_array(arr)
