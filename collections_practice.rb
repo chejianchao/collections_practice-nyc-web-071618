@@ -25,7 +25,8 @@ def sum_array(arr)
 end
 
 def add_s(arr)
-  arr.map{|a|
+  
+  arr.each_with_index{|a,idx|
     
   }
 end
