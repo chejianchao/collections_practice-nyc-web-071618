@@ -23,8 +23,14 @@ def reverse_array(arr)
 end
 
 def kesha_maker(arr)
-  
+  ans = []
+  arr.each {|a|
+    a[2] = "$"
+    ans << a
+  }
+  ans
 end
+
 def sum_array(arr)
   arr.reduce{|a,b| a+b}
 end
