@@ -24,5 +24,8 @@ def sum_array(arr)
   arr.reduce{|a,b| a+b}
 end
 
-
-
+def add_s(arr)
+  arr.map{|a|
+    
+  }
+end
