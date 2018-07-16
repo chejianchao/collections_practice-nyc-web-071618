@@ -11,3 +11,4 @@ def sort_array_char_count(arr)
     a.size <=> b.size
   }
 end
+
