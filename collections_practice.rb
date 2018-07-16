@@ -43,7 +43,7 @@ end
 def add_s(arr)
   ans = []
   arr.each_with_index{|a,idx|
-    if idx == 2
+    if idx == 1
       ans << a
     else
       a << "s"
