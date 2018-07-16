@@ -25,8 +25,14 @@ def sum_array(arr)
 end
 
 def add_s(arr)
-  
+  ans = []
   arr.each_with_index{|a,idx|
-    
+    if idx == 2
+      ans << a
+    else
+      a << "s"
+      ans << a
+    end
   }
+  return ans
 end
