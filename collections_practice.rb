@@ -20,3 +20,6 @@ def reverse_array(arr)
   arr.reverse
 end
 
+def sum_array(arr)
+  
+end
