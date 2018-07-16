@@ -31,6 +31,11 @@ def kesha_maker(arr)
   ans
 end
 
+def find_a(arr)
+  arr.find{|a|
+    a.start
+  }
+end
 def sum_array(arr)
   arr.reduce{|a,b| a+b}
 end
